@@ -2,11 +2,11 @@
 int main() {
     int num1,num2;
     scanf("%d %d",num1,num2);
-    if (num1!=num2){
-        printf("True");
+    if (num1==num2){
+        printf("False");
     }
     else{
-        printf("False");
+        printf("True");
     }
     return 0;
 }
