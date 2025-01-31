@@ -9,6 +9,6 @@ int main() {
         }
         k++;
     }
-    printf("%d",counter);
+    printf("%d",counte);
     return 0;
 }
