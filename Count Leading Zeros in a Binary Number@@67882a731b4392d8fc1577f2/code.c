@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &num1);
     
     for(int i=0;i<sizeof(int)*8;i++){
-        if (((num1>>i)&1)==0){
+        if (((num1>>i) & 1)==0){
             counte++;
         }
     }
