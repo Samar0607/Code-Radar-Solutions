@@ -7,7 +7,7 @@ int main() {
     for (int i = 0; i < sizeof(num1)*8; i++)
     {
         if (((num1>>i) & 1)==0){
-            counte++;
+            count++;
         }
     }
     printf("%d",count);
