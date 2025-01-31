@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int num1,k=0,counte=0;
+    int num1,count=0;
     scanf("%d",&num1);
-    while (k<32){
-        if ((num1>>k)&1==0){
+    for(int i=0;i<sizeof(int)*8;i++;){
+        if (((num1>>i)&1)==0){
             counte++;
         }
-        k++;
     }
-    printf("%d",counte);
+    printf("%d",count);
     return 0;
 }
