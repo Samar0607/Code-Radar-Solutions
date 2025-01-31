@@ -8,7 +8,7 @@ int main() {
     int num1,k=0;
     scanf("%d",&num1);
     while (1){
-        if((num1>>k)&1==0){
+        if((num1>>k)&1==1){
             printf("%d",k);
             break;
         }
