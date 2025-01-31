@@ -7,15 +7,14 @@ char* welcome() {
 int main() {
     int num1,k=0;
     scanf("%d",&num1);
-    while (true){
+    while (1){
         if(num1>>k^1==0){
             printf("%d",k);
-            break
+            break;
         }
         else{
             k++;
         }
     }
-
     return 0;
 }
