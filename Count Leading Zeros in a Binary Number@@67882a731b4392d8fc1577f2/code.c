@@ -9,6 +9,9 @@ int main() {
         if (((num1>>i) & 1)==0){
             count++;
         }
+        else{
+            count=0;
+        }
     }
     printf("%d",count);
     return 0;
