@@ -18,7 +18,7 @@ int main() {
         i++;
         num1=num1/2;
     }
-    for (int j=i ;j>0 ;j--)
+    for (int j=i-1 ;j>0 ;j--)
     {
         printf("%c",num[j]);
     }
