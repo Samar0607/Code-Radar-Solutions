@@ -2,7 +2,7 @@
 
 int main() {
     int num1;
-    char num[20];
+    char num[100];
     int i=0;
     
     scanf("%d",&num1);
