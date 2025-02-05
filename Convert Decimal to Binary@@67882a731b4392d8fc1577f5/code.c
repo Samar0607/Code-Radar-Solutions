@@ -19,7 +19,7 @@ int main() {
         num1=num1/2;
     }
     num[i] = '\0';
-    for (int j=i ;j>0 ;j--)
+    for (int j=i ;j>=0 ;j--)
     {
         printf("%c",num[j]);
     }
