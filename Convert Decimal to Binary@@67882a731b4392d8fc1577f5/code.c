@@ -6,6 +6,7 @@ int main() {
     int i=0;
     
     scanf("%d",&num1);
+    if (num1==0){printf("%c",'0');}
     while (num1>0) 
     {
         if(num1%2==0)
