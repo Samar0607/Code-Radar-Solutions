@@ -15,7 +15,7 @@ int main() {
         num1/=2;
         i++;
     }
-    num[i]='/0';
+    num[i]='\0';
     for (int j=0;j<i;j++){
         char temp=num[j];
         num[j]=temp[i-j-1];
