@@ -21,6 +21,9 @@ int main() {
         i++;
     }
     num[i]='\0';
+    for (int j=i;j>0;j--){
+        printf("%c",num[j]);
+    }
     
     printf("%s",num);
     return 0;
