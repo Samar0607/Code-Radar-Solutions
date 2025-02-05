@@ -4,27 +4,24 @@ int main() {
     int num1;
     char num[10];
     int i=0;
-    scanf("%d",&num1);
     
-    if (num1==0){
-        printf("%d",0);
-    }
+    scanf("%d",&num1);
     while (num1>0) 
     {
-        if(num1%2==0){
+        if(num1%2==0)
+        {
             num[i]='0';
         }
         else{
             num[i]='1';
         }
-        num1/=2;
         i++;
+        num1=num1/2;
     }
-    num[i]='\0';
-    for (int j=i-2;j>0;j--){
+    num[i] = '\0';
+    for (int j=i ;j>0 ;j--)
+    {
         printf("%c",num[j]);
     }
-    
-    printf("%s",num);
     return 0;
 }
