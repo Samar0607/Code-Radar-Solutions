@@ -17,11 +17,7 @@ int main() {
         i++;
     }
     num[i]='\0';
-    for (int j=0;j<i/2;j++){
-        char temp=num[j];
-        num[j]=temp[i-j-1];
-        num[i-j-1]=temp;
-    }
+    
     printf("%s",num);
     return 0;
 }
