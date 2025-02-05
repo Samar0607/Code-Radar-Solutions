@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int num1,i=0;
+    int num1;
     char num[10];
-
+    int i=0;
     scanf("%d",&num1);
     while(num1>0){
         if(num1%2==0){
-            num[i]=0;
+            num[i]='0';
         }
         else{
-            num[i]=1;
+            num[i]='1';
         }
         num1/=2;
         i++;
