@@ -8,6 +8,7 @@ int main() {
     
     if (num1==0){
         printf("%d",0);
+        break;
     }
     while (num1>0) 
     {
