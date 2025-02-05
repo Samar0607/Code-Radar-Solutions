@@ -12,7 +12,7 @@ int main() {
         else{
             num[i]=1;
         }
-        num1/=2
+        num1/=2;
         i++;
     }
     num[i]='/0';
