@@ -2,7 +2,8 @@
 
 int main() {
     int num;
+    char a = '\0';
     scanf("%d",&num);
-    printf("%c",num);
+    printf("%c",a+=num);
     return 0;
 }
