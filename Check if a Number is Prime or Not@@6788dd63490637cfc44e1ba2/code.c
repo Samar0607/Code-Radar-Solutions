@@ -8,7 +8,6 @@ int main (){
     {
        if (num%i==0){
         c++;
-        break;
        } 
     }
     if (c==0){
