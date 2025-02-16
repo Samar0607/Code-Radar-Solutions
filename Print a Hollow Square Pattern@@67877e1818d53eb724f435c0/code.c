@@ -15,7 +15,9 @@ int main ()
         else{
             printf(" ");
         }
-    }}
+    }
+    printf("\n");
+    }
     solid(num);
     return 0;
 }
