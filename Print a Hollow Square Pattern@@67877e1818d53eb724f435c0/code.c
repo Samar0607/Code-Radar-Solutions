@@ -17,10 +17,10 @@ int main ()
         }
     }}
     solid(num);
-    return0;
+    return 0;
 }
 void solid(int n){
-    for (int i=0;i<num;i++){
+    for (int i=0;i<n;i++){
         printf("*");
     }
     printf("\n");
