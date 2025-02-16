@@ -11,8 +11,14 @@ int main (){
                  break;
         case '*':printf("%d",num1*num2);
                  break;
-        case '/':printf("%d",num1/num2);
+        case '/':
+        if (num2!=0){
+            printf("%d",num1/num2);
                  break;
+        }
+        else{
+            printf("error");
+        };
         default :printf("error");
                  break;
         }
