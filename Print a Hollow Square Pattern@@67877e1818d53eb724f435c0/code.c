@@ -6,7 +6,7 @@ int main ()
     int num;
     scanf ("%d",&num);
     solid(num);
-    if(num>2){
+    for (int j=0;j<num-2;j++){
     for (int i=0;i<num;i++)
     {
         if (i==0||i==num-1){
@@ -17,7 +17,7 @@ int main ()
         }
     }
     printf("\n");
-    }
+}
     solid(num);
     return 0;
 }
