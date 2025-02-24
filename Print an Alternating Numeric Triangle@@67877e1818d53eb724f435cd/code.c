@@ -8,7 +8,7 @@ int main (void){
             printf("%d ",k%2==0 ? 0:1);
         }
         printf("\n");
-        for(int j=0;j<i+1;j++){
+        for(int j=0;j<i+2;j++){
             printf("%d ",j%2==0 ? 0:1);
         }
         printf("\n");
