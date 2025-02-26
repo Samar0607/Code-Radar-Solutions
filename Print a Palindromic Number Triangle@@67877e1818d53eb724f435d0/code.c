@@ -11,6 +11,9 @@ int main (void){
         for(int j=1;j<i+2;j++){
             printf("%d",j);
         }
+        for(int l=i;l>0;l--){
+            printf("%d",l);
+        }
         printf("\n");
 
     }
