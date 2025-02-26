@@ -7,7 +7,7 @@ int main (void){
         if(i%2==0){
         int k=1;
         for(;k<i+2;k++){
-            printf("%d ",k%2==0 ? 1:0);
+            printf("%d ",k%2==0 ? 0:1);
         }
         printf("\n");}
         else{
