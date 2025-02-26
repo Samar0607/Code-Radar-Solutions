@@ -12,7 +12,7 @@ int main (void){
         printf("\n");}
         else{
         int j=0;
-        for(;j<=i+2;j++){
+        for(;j<=i;j++){
             printf("%d ",j%2==0 ? 0:1);
         }
         printf("\n");}
